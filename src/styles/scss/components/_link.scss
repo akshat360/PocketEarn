@@ -1,0 +1,17 @@
+.link {
+  display: inline-block;
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+    &:hover {
+      color: $color-light;
+      transition: all 0.3s ease-out;
+      text-decoration: underline;
+    }
+
+    &--secondary:hover {
+      color: $color-light;
+      transition: all 0.3s ease-out;
+      text-decoration: none;
+    }
+  }

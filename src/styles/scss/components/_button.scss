@@ -1,0 +1,16 @@
+.btn {
+  display: inline-block;
+  min-width: 200px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  background: linear-gradient(to right, $color-cta, $color-cta-gradient);
+  border-radius: 25px;
+  color: $color-light;
+  border: transparent;
+  cursor: pointer;
+  font-weight: bold;
+  &:hover {
+    background: $color-cta;
+    transition: all 0.3s ease-out;
+  }
+}

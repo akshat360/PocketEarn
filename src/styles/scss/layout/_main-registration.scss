@@ -1,0 +1,42 @@
+.registration {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  position: relative;
+
+  &__content {
+    width: 100%;
+    max-width: 840px;
+    padding-top: 8rem;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 1.8rem 1.2rem;
+    background-color: $color-bg-secondary;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  &__title {
+    font-family: $font-family-secondary;
+    font-size: 18px;
+    font-weight: $font-weight-bold;
+    color: $color-light;
+    line-height: $line-height-titles;
+    @include desktop {
+      font-size: $font-size-titles;
+    }
+  }
+
+  &__text {
+    max-width: 620px;
+    margin-top: 0.7rem;
+    margin-right: auto;
+    margin-left: auto;
+    color: $color-grey;
+    line-height: $line-height;
+    font-size: $font-size;
+    text-align: center;
+  }
+}

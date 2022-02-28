@@ -1,0 +1,63 @@
+.card {
+  margin-bottom: 1.8rem;
+  margin-left: auto;
+  margin-right: auto;
+  
+  @for $i from 2 through 3 {
+    &-#{$i} {
+      margin-top: 1.8rem;
+      @media all and (min-width: 768px) {
+        margin-top: 0;
+      }
+    }
+  }
+  @for $i from 1 through 2 {
+    &-#{$i} {
+      @media all and (min-width: 768px) {
+        margin-right: 1.8rem;
+      }
+    }
+  }
+
+  &__content {
+    width: 100%;
+    max-width: 400px;
+    padding: 2rem 1.5rem;
+    background-color: $color-bg-quaternary;
+  }
+
+  &__text {
+    font-size: 12px;
+    line-height: $line-height;
+  }
+
+  &__text--bold {
+    font-size: 12px;
+    font-weight: $font-weight-bold;
+  }
+
+  &__text--small {
+    margin-top: 0.4rem;
+    font-size: 11px;
+  }
+
+  &__flex-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 1rem;
+  }
+
+  &__img-container {
+    max-width: 30px;
+    margin-right: 0.7rem;
+  }
+
+  &__image {
+    border-radius: 50%;
+  }
+}
+
+// .card-1 {
+//   position: relative;
+// }

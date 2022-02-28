@@ -1,0 +1,45 @@
+.footer {
+  width: 100%;
+  background-color: $color-bg-tertiary;
+
+  &__content {
+    margin-right: auto;
+    margin-left: auto;
+    padding: 16rem 2rem 4rem 2rem;
+    @include tablet {
+      max-width: 900px;
+    }
+    @include desktop {
+      max-width: 1150px;
+    }
+  }
+
+  &__icon {
+    min-width: 150px;
+  }
+
+  &__flex-outer {
+    @include tablet {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    @include desktop {
+      flex-direction: row;
+    }
+  }
+
+  &__flex-intermediate {
+    @include tablet {
+      display: flex;
+      margin-top: 2.5rem;
+      padding-left: 2rem;
+    }
+  }
+
+  &__flex-inner {
+    @include tablet {
+      display: flex;
+    }
+  }
+}
