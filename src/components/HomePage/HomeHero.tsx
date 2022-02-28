@@ -15,9 +15,9 @@ const HomeHero = () =>{
           />
         </div>
         <div className="hero__text-container">
-          <h2 className="hero__title">All your files in one secure location, accessible anywhere.</h2>
+          <h2 className="hero__title">Get your pocket money monthly.</h2>
           <p className="hero__description">
-            Fylo stores all your most important files in one secure location. Access
+            PocketEarn stores all your most important files in one secure location. Access
             them wherever you need, share and collaborate with friends family, and
             co-workers.
           </p>
